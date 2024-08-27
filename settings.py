@@ -5,7 +5,7 @@ HALF_HEIGHT = HEIGHT // 2
 FPS = 60
 
 player_pos = (HALF_WIDTH, HALF_HEIGHT)
-player_angle = 0
+player_angle = 1
 player_speed = 2
 
 WHITE = (255, 255, 255)
