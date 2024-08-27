@@ -11,7 +11,7 @@ class Player:
         return (self.x, self.y)
 
     def movement(self):
-        keys = pygame.key.get_pressed
+        keys = pygame.key.get_pressed()
         if keys[pygame.K_w]:
             self.y -= player_speed
         if keys[pygame.K_s]:
